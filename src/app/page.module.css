@@ -1,0 +1,58 @@
+.bannerSection {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0; 
+  text-align: center;
+}
+
+.bannerImage {
+  width: 100%;
+  height: auto;
+  display: block; 
+}
+
+.bannerText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.bannerText h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.bannerText p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* Категории */
+.categories {
+  padding: 20px;
+  text-align: center;
+}
+
+.categories h2 {
+  font-family: 'Merriweather', serif;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.categoryList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-items: center;
+}
+
+.catalogFooter {
+  text-align: center;
+  padding: 20px;
+  background-color: #5d4037; /* Тёмно-коричневый футер */
+  color: #ffffff; /* Белый текст */
+}
